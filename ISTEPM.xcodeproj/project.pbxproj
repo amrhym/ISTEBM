@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF45FA7A1F40FED40024D4D9 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF45FA791F40FED40024D4D9 /* ViewController2.swift */; };
+		FF45FA7C1F4221990024D4D9 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF45FA7B1F4221990024D4D9 /* ViewController3.swift */; };
+		FF45FA7E1F42419E0024D4D9 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF45FA7D1F42419E0024D4D9 /* ViewController4.swift */; };
 		FF7C0FB41F3F525B00097185 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7C0FB31F3F525B00097185 /* AppDelegate.swift */; };
 		FF7C0FB61F3F525B00097185 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7C0FB51F3F525B00097185 /* ViewController.swift */; };
 		FF7C0FB91F3F525B00097185 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7C0FB71F3F525B00097185 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		FF7C0FBE1F3F525B00097185 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7C0FBC1F3F525B00097185 /* LaunchScreen.storyboard */; };
 		FF7C0FC91F3F525B00097185 /* ISTEPMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7C0FC81F3F525B00097185 /* ISTEPMTests.swift */; };
 		FF7C0FD41F3F525B00097185 /* ISTEPMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7C0FD31F3F525B00097185 /* ISTEPMUITests.swift */; };
+		FF7C0FE21F3F533200097185 /* IST.png in Resources */ = {isa = PBXBuildFile; fileRef = FF7C0FE11F3F533200097185 /* IST.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF45FA791F40FED40024D4D9 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		FF45FA7B1F4221990024D4D9 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		FF45FA7D1F42419E0024D4D9 /* ViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 		FF7C0FB01F3F525B00097185 /* ISTEPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISTEPM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7C0FB31F3F525B00097185 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF7C0FB51F3F525B00097185 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		FF7C0FCF1F3F525B00097185 /* ISTEPMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISTEPMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7C0FD31F3F525B00097185 /* ISTEPMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISTEPMUITests.swift; sourceTree = "<group>"; };
 		FF7C0FD51F3F525B00097185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7C0FE11F3F533200097185 /* IST.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IST.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 		FF7C0FA71F3F525B00097185 = {
 			isa = PBXGroup;
 			children = (
+				FF7C0FE31F3F534400097185 /* Resources */,
 				FF7C0FB21F3F525B00097185 /* ISTEPM */,
 				FF7C0FC71F3F525B00097185 /* ISTEPMTests */,
 				FF7C0FD21F3F525B00097185 /* ISTEPMUITests */,
@@ -99,7 +108,10 @@
 			children = (
 				FF7C0FB31F3F525B00097185 /* AppDelegate.swift */,
 				FF7C0FB51F3F525B00097185 /* ViewController.swift */,
+				FF45FA7D1F42419E0024D4D9 /* ViewController4.swift */,
+				FF45FA791F40FED40024D4D9 /* ViewController2.swift */,
 				FF7C0FB71F3F525B00097185 /* Main.storyboard */,
+				FF45FA7B1F4221990024D4D9 /* ViewController3.swift */,
 				FF7C0FBA1F3F525B00097185 /* Assets.xcassets */,
 				FF7C0FBC1F3F525B00097185 /* LaunchScreen.storyboard */,
 				FF7C0FBF1F3F525B00097185 /* Info.plist */,
@@ -123,6 +135,14 @@
 				FF7C0FD51F3F525B00097185 /* Info.plist */,
 			);
 			path = ISTEPMUITests;
+			sourceTree = "<group>";
+		};
+		FF7C0FE31F3F534400097185 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF7C0FE11F3F533200097185 /* IST.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +258,7 @@
 				FF7C0FBE1F3F525B00097185 /* LaunchScreen.storyboard in Resources */,
 				FF7C0FBB1F3F525B00097185 /* Assets.xcassets in Resources */,
 				FF7C0FB91F3F525B00097185 /* Main.storyboard in Resources */,
+				FF7C0FE21F3F533200097185 /* IST.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +285,9 @@
 			files = (
 				FF7C0FB61F3F525B00097185 /* ViewController.swift in Sources */,
 				FF7C0FB41F3F525B00097185 /* AppDelegate.swift in Sources */,
+				FF45FA7C1F4221990024D4D9 /* ViewController3.swift in Sources */,
+				FF45FA7A1F40FED40024D4D9 /* ViewController2.swift in Sources */,
+				FF45FA7E1F42419E0024D4D9 /* ViewController4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +443,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 93M3757MEL;
 				INFOPLIST_FILE = ISTEPM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ist.ISTEPM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +457,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 93M3757MEL;
 				INFOPLIST_FILE = ISTEPM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ist.ISTEPM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +542,7 @@
 				FF7C0FDA1F3F525B00097185 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF7C0FDB1F3F525B00097185 /* Build configuration list for PBXNativeTarget "ISTEPMTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +551,7 @@
 				FF7C0FDD1F3F525B00097185 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF7C0FDE1F3F525B00097185 /* Build configuration list for PBXNativeTarget "ISTEPMUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +560,7 @@
 				FF7C0FE01F3F525B00097185 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
